@@ -6,7 +6,6 @@ load armada_vagrantfile_path
 armada_vagrantfile(
     :microservice_name => 'example-python',
     :armada_run_args => '--env dev/vagrant',
-    :configs_dir => 'config',
 )
 
 # You can use one-liner form, and omit some fields:
